@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automated Line Status V3.3</title>
+    <link rel="icon" type="image/x-icon" href="src\favicon.ico">
+    <link rel="stylesheet" href="src\styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
+    <script src="src\xlsx.bundle.js"></script>
+</head>
+<body>
+    <div class="top-right">Made by Peyton Lyszczarz</div>
+    <div class="container">
+        <div class="image-container">
+            <img src="src\VillageWebLogo.png" style="max-width:150px; height:auto;">
+        </div>
+        <div class="drop-zone" id="dropZone">
+            Drag and drop CSV files here or click to select
+        </div>
+        <ul class="file-list" id="fileList"></ul>
+        <input type="number" id="projectedInput" placeholder="Enter projected value" class="input-box" />
+        <button id="processButton" class="process-button">Process and Download Excel</button>
+    </div>
+    <script src="src\script.js"></script>
+</body>
+</html>

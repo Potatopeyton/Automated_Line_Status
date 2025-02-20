@@ -1,0 +1,93 @@
+ body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #333;
+        color: #ccc;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        position: relative;
+    }
+        .image-container {
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    .top-right {
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: purple;
+        margin: 20px;
+        font-size: 30px;
+    }
+    .container {
+        text-align: center;
+        width: 100%;
+        max-width: 600px;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        border-radius: 10px;
+        background: #444;
+    }
+    .drop-zone {
+        padding: 20px;
+        border: 3px dashed #777;
+        background-color: #555;
+        border-radius: 10px;
+        color: #ddd;
+        margin-bottom: 20px;
+        transition: background-color 0.3s;
+    }
+    .drop-zone:hover {
+        background-color: #666;
+    }
+    .input-box, .process-button {
+        width: 90%;
+        padding: 12px 20px;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+    .input-box {
+        border: 1px solid #777;
+        background-color: #555;
+        color: #ddd;
+    }
+    .process-button {
+        background: #8B008B;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+    .process-button:hover {
+        background: #cc00cc;
+    }
+    .file-list, .file-item {
+        width: 90%;
+        margin: 10px auto;
+    }
+    .remove-button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: background-color 0.3s, box-shadow 0.3s;
+    margin-left: 10px;
+    }
+    .remove-button:hover {
+        background-color: #c0392b;
+        box-shadow: 0 3px 8px rgba(0,0,0,0.3);
+    }
+    .red {
+        color: #FF0000; /* Red for 191 files */
+    }
+    .dark-yellow {
+        color: #DAA520; /* Dark yellow for 192 files */
+    }
